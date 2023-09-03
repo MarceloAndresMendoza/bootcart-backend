@@ -1,0 +1,28 @@
+{"level":"info","message":"Server is running on port 3000","service":"user-service"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service"}
+{"level":"info","message":"Server is running on port 3000","service":"user-service"}
+{"level":"info","message":"Server is running on port 3000","service":"general"}
+{"level":"info","message":"Server is running on port 3000","service":"general-app"}
+{"level":"info","message":"Server is running on port 3000","service":"general-app"}
+{"level":"info","message":"Server is running on port 3000","service":"general-app"}
+{"level":"info","message":"Server is running on port 3000","service":"general-app"}
+{"level":"info","message":"Server is running on port 3000","service":"general-app"}
+{"level":"info","message":"Server is running on port 3000","service":"general-app"}
+{"level":"info","message":"Server is running on port 3000","service":"general-app"}
+{"level":"info","message":"Server is running on port 3000","service":"general-app"}
+{"level":"info","message":"Server is running on port 3000","service":"general-app"}
+{"level":"info","message":"Server is running on port 3000","service":"main"}
+{"level":"info","message":"Server is running on port 3000","service":"main-service"}
+{"level":"info","message":"Server is running on port 3000","service":"app-service","timeStamp":1693733203121}
+{"level":"info","message":"Server is running on port 3000","service":"app-service","timestamp":1693733222914}
+{"level":"info","message":"Server is running on port 3000","timestamp":1693733233006}
+{"level":"info","message":"Server is running on port 3000","timetimestamp":1693733294723}
+{"level":"info","message":"Server is running on port 3000","timestamp":1693733308132}
+{"level":"info","message":"Server is running on port 3000","timestamp":"function now() { [native code] }","unixtime":1693733322659}
+{"level":"info","message":"Server is running on port 3000","timestamp":"function now() { [native code] }","unixtimestamp":1693733324336}
+{"level":"info","message":"Server is running on port 3000","timestamp":"1,693,733,335,651","unixtimestamp":1693733335681}
+{"level":"info","message":"Server is running on port 3000","timestamp":"1,693,733,390,378","unixtimestamp":1693733390390}
+{"level":"info","message":"Server is running on port 3000","timestamp":"1,693,733,397,801","unixtimestamp":1693733397814}
+{"level":"info","message":"Server is running on port 3000","timestamp":"1,693,733,401,158","unixtimestamp":1693733401174}
+{"level":"info","message":"Server is running on port 3000","timestamp":"1,693,733,403,910","unixtimestamp":1693733403924}
+{"level":"info","message":"Server is running on port 3000","timestamp":"9/3/2023, 6:30:19 AM","unixtimestamp":1693733419119}

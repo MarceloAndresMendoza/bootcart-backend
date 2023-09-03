@@ -4,6 +4,8 @@ import productRouter from './routes/store.routes.js';
 import usersRouter from './routes/users.routes.js';
 import dotenv from 'dotenv';
 import { db } from './config/config.js';
+import { logger } from './utils/logger.js';
+
 dotenv.config();
 
 const corsOptions={
@@ -24,6 +26,7 @@ app.use('/api/pre0', usersRouter)
 app.use(cors(corsOptions));
 
 db();
+
 app.listen(PORT, () => {
-    console.log(`Server is running on port ${PORT}`);
+    logger.info(`Server is running on port ${PORT}`);
 })

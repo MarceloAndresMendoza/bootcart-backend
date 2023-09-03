@@ -1,20 +1,20 @@
-import * as fs from 'fs';
-import { getTimestamp } from './time.utils.js';
-const LOGPATH = './src/logger/logdata';
-const ENCODING = 'utf-8';
+import winston from 'winston';
 
-export const logger = (data, subject) => {
-    const logData = `[${getTimestamp()}] ${data}`;
+const date = new Date(Date.now());
 
-    return new Promise((resolve, reject) => {
-        fs.appendFile(`${LOGPATH}${subject}.log`, `${logData}\n`, ENCODING, (err) => {
-            if (err) {
-                reject('Error writing to log file');
-                console.error('Error writing to log file:', err);
-                return;
-            }
-            console.log(logData);
-            resolve('Log saved');
-        });
-    })
+export const logger = winston.createLogger({
+  level: 'info',
+  format: winston.format.json(),
+  defaultMeta: { timestamp: date.toLocaleString(), unixtimestamp: Date.now()},
+  transports: [
+
+    new winston.transports.File({ filename: './logs/error.log', level: 'error' }),
+    new winston.transports.File({ filename: './logs/combined.log' }),
+  ],
+});
+
+if (process.env.NODE_ENV !== 'production') {
+  logger.add(new winston.transports.Console({
+    format: winston.format.simple(),
+  }));
 }
