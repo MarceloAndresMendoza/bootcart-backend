@@ -29,6 +29,7 @@ const userSchema = new Schema({
     billingAddress: addressSchema, // Billing Address Data
     shippingAddress: addressSchema, // Shipping Address Data
     shoppingCart: [cartItemSchema], // Shopping Cart Array
+    previousOrders: [cartItemSchema], // Previous orders
 });
 
 export const User = mongoose.model('User', userSchema);
