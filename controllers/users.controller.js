@@ -15,10 +15,15 @@ export const getAllUsers = async (req, res) => {
 
 export const getUserProfile = async (req, res) => {
     try {
-        const allProducts = await Product.find();
-        res.status(200).json(allProducts);
+        const { xaccesstoken } = req.headers;
+        const decoded = jwt.verify(xaccesstoken, process.env.SECRET_KEY);
+        const userData = await User.findById(decoded.data.id).select('-id -password -role -_id -__v'); // some cleaning before returning data to the client
+        if (!userData) {
+            return res.status(404).json({ message: 'User not found' });
+        }
+        res.status(200).json(userData);
     } catch (error) {
-        res.status(404).json({error: 'No se encontraron datos de productos'});
+        res.status(500).json({error: 'Internal server error', method: 'getUserProfile', error: error});
     }
 }
 
