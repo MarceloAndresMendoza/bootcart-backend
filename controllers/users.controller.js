@@ -1,11 +1,12 @@
 import { User } from '../models/User.model.js';
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken'
+import { logger } from '../utils/logger.js';
 
 export const getAllUsers = async (req, res) => {
     // ADMIN AUTH
     try {
-        const currentUser = await User.findOne({username : req.username});
+        //const currentUser = await User.findOne({email : req.email});
         const allUsers = await User.find();
         res.status(200).json(allUsers);
     } catch (error) {
@@ -29,9 +30,8 @@ export const getUserProfile = async (req, res) => {
 
 export const signUp = async (req, res) => {
     try {
-        const { username, firstName, lastName, email, password } = req.body;
-
-        if (!username || !firstName || !lastName || !email || !password) {
+        const {firstName, lastName, email, password } = req.body;
+        if (!firstName || !lastName || !email || !password) {
             return res.status(400).json({ message: "Please, fill up all required data" });
         }
 
@@ -43,7 +43,6 @@ export const signUp = async (req, res) => {
 
         const passwordHash = await bcrypt.hash(password, 10);
         const newUser = new User({
-            username,
             firstName,
             lastName,
             email,
@@ -52,10 +51,13 @@ export const signUp = async (req, res) => {
         newUser.role = 'user'; // force setting up the user role to avoid manipulation
         // Admins can then, once created, set an user to Admin role.
         const savedUser = await newUser.save();
+        logger.info(`User ${savedUser.firstName} ${savedUser.lastName} added succesfully`)
         res.status(201).json({
             message: `User ${savedUser.firstName} ${savedUser.lastName} has been successfully created.`,
         });
     } catch (error) {
+        
+        logger.error(`Error trying to add ${savedUser.firstName} ${savedUser.lastName}`)
         res.status(500).json({ message: 'Unable to add the user', error: error });
     }
 };
@@ -80,7 +82,6 @@ export const login = async (req, res) => {
                 exp: expireTime,
                 data: {
                     id: verifyUserByEmail._id,
-                    username: verifyUserByEmail.username,
                     email: verifyUserByEmail.email,
                     firstName: verifyUserByEmail.firstName,
                     lastName: verifyUserByEmail.lastName,
