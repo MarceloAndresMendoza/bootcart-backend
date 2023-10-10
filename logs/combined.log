@@ -206,3 +206,113 @@
 {"level":"info","message":"User Camila Riquelme added succesfully","timestamp":"9/7/2023, 11:03:56 PM","unixtimestamp":1694138636436}
 {"level":"info","message":"User Camila Riquelme added succesfully","timestamp":"9/7/2023, 11:03:56 PM","unixtimestamp":1694138636436}
 {"level":"info","message":"User Marcelo Mendoza added succesfully","timestamp":"9/7/2023, 11:03:56 PM","unixtimestamp":1694138636436}
+{"level":"info","message":"Server is running on port 3000","timestamp":"9/8/2023, 12:09:36 AM","unixtimestamp":1694142576209}
+{"level":"info","message":"Server is running on port 3000","timestamp":"9/30/2023, 1:55:11 PM","unixtimestamp":1696092911406}
+{"level":"info","message":"User marcelo mendoza added succesfully","timestamp":"9/30/2023, 1:55:11 PM","unixtimestamp":1696092911406}
+{"level":"info","message":"User jorge pereez added succesfully","timestamp":"9/30/2023, 1:55:11 PM","unixtimestamp":1696092911406}
+{"level":"info","message":"Server is running on port 3000","timestamp":"9/30/2023, 7:03:56 PM","unixtimestamp":1696111436173}
+{"level":"info","message":"SunBeam server status: [object Promise]","timestamp":"10/9/2023, 8:47:10 PM","unixtimestamp":1696895230518}
+{"level":"info","message":"Server is running on port 3000","timestamp":"10/9/2023, 8:47:10 PM","unixtimestamp":1696895230518}
+{"level":"info","message":"SunBeam server status: false","timestamp":"10/9/2023, 8:47:19 PM","unixtimestamp":1696895239347}
+{"level":"info","message":"Server is running on port 3000","timestamp":"10/9/2023, 8:47:19 PM","unixtimestamp":1696895239347}
+{"level":"info","message":"Server is running on port 3000","timestamp":"10/9/2023, 8:47:56 PM","unixtimestamp":1696895276771}
+{"level":"info","message":"Server is running on port 3000","timestamp":"10/9/2023, 8:48:04 PM","unixtimestamp":1696895284240}
+{"level":"info","message":"Server is running on port 3000","timestamp":"10/9/2023, 8:48:06 PM","unixtimestamp":1696895286557}
+{"level":"info","message":"Server is running on port 3000","timestamp":"10/9/2023, 8:48:36 PM","unixtimestamp":1696895316792}
+{"level":"error","message":"SunBeam server is not running on http://rweb.cl:48299/api/v1/","timestamp":"10/9/2023, 8:48:36 PM","unixtimestamp":1696895316792}
+{"level":"info","message":"Server is running on port 3000","timestamp":"10/9/2023, 8:49:29 PM","unixtimestamp":1696895369551}
+{"level":"error","message":"SunBeam server is not running on http://rweb.cl:48299/api/v1","timestamp":"10/9/2023, 8:49:29 PM","unixtimestamp":1696895369551}
+{"level":"info","message":"Server is running on port 3000","timestamp":"10/9/2023, 8:49:36 PM","unixtimestamp":1696895376892}
+{"level":"error","message":"SunBeam server is not running on http://rweb.cl:48299/api/v1","timestamp":"10/9/2023, 8:49:36 PM","unixtimestamp":1696895376892}
+{"level":"info","message":"Server is running on port 3000","timestamp":"10/9/2023, 8:49:40 PM","unixtimestamp":1696895380125}
+{"level":"error","message":"SunBeam server is NOT running on http://rweb.cl:48299/api/v1","timestamp":"10/9/2023, 8:49:40 PM","unixtimestamp":1696895380125}
+{"level":"info","message":"Server is running on port 3000","timestamp":"10/9/2023, 8:50:00 PM","unixtimestamp":1696895400155}
+{"level":"error","message":"SunBeam server is NOT running on http://rweb.cl:48299/api/v1","timestamp":"10/9/2023, 8:50:00 PM","unixtimestamp":1696895400155}
+{"level":"info","message":"Server is running on port 3000","timestamp":"10/9/2023, 8:50:01 PM","unixtimestamp":1696895401419}
+{"level":"info","message":"SunBeam server is running on http://rweb.cl:48299/api/v1","timestamp":"10/9/2023, 8:50:01 PM","unixtimestamp":1696895401419}
+{"level":"info","message":"Server is running on port 3000","timestamp":"10/9/2023, 8:50:02 PM","unixtimestamp":1696895402925}
+{"level":"error","message":"SunBeam server is NOT running on http://rweb.cl:48299/api/v1","timestamp":"10/9/2023, 8:50:02 PM","unixtimestamp":1696895402925}
+{"level":"info","message":"Server is running on port 3000","timestamp":"10/9/2023, 8:50:09 PM","unixtimestamp":1696895409661}
+{"level":"error","message":"SunBeam server is NOT running on http://rweb.cl:48299/api/v1","timestamp":"10/9/2023, 8:50:09 PM","unixtimestamp":1696895409661}
+{"level":"info","message":"Server is running on port 3000","timestamp":"10/9/2023, 8:50:27 PM","unixtimestamp":1696895427592}
+{"level":"error","message":"SunBeam server is NOT running on http://rweb.cl:48299/api/v1","timestamp":"10/9/2023, 8:50:27 PM","unixtimestamp":1696895427592}
+{"level":"info","message":"Server is running on port 3000","timestamp":"10/9/2023, 8:50:44 PM","unixtimestamp":1696895444930}
+{"level":"info","message":"SunBeam server is running on http://rweb.cl:48299/api/v1","timestamp":"10/9/2023, 8:50:44 PM","unixtimestamp":1696895444930}
+{"level":"info","message":"Server is running on port 3000","timestamp":"10/9/2023, 8:50:57 PM","unixtimestamp":1696895457158}
+{"level":"info","message":"SunBeam server is running on http://rweb.cl:48299/api/v1","timestamp":"10/9/2023, 8:50:57 PM","unixtimestamp":1696895457158}
+{"level":"info","message":"Server is running on port 3000","timestamp":"10/9/2023, 8:51:00 PM","unixtimestamp":1696895460620}
+{"level":"info","message":"SunBeam server is running on http://rweb.cl:48299/api/v1","timestamp":"10/9/2023, 8:51:00 PM","unixtimestamp":1696895460620}
+{"level":"info","message":"Server is running on port 3000","timestamp":"10/9/2023, 8:51:04 PM","unixtimestamp":1696895464231}
+{"level":"info","message":"SunBeam server is running on http://rweb.cl:48299/api/v1","timestamp":"10/9/2023, 8:51:04 PM","unixtimestamp":1696895464231}
+{"level":"info","message":"Server is running on port 3000","timestamp":"10/9/2023, 8:51:10 PM","unixtimestamp":1696895470469}
+{"level":"info","message":"SunBeam server is running on http://rweb.cl:48299/api/v1","timestamp":"10/9/2023, 8:51:10 PM","unixtimestamp":1696895470469}
+{"level":"info","message":"Server is running on port 3000","timestamp":"10/9/2023, 8:51:15 PM","unixtimestamp":1696895475679}
+{"level":"info","message":"SunBeam server is running on http://rweb.cl:48299/api/v1","timestamp":"10/9/2023, 8:51:15 PM","unixtimestamp":1696895475679}
+{"level":"info","message":"Server is running on port 3000","timestamp":"10/9/2023, 8:51:25 PM","unixtimestamp":1696895485178}
+{"level":"info","message":"SunBeam server is running on http://rweb.cl:48299/api/v1","timestamp":"10/9/2023, 8:51:25 PM","unixtimestamp":1696895485178}
+{"level":"info","message":"Server is running on port 3000","timestamp":"10/9/2023, 8:51:27 PM","unixtimestamp":1696895487040}
+{"level":"info","message":"SunBeam server is running on http://rweb.cl:48299/api/v1","timestamp":"10/9/2023, 8:51:27 PM","unixtimestamp":1696895487040}
+{"level":"info","message":"Server is running on port 3000","timestamp":"10/9/2023, 8:51:45 PM","unixtimestamp":1696895505386}
+{"level":"info","message":"SunBeam file server is running on http://rweb.cl:48299/api/v1","timestamp":"10/9/2023, 8:51:45 PM","unixtimestamp":1696895505386}
+{"level":"info","message":"Server is running on port 3000","timestamp":"10/10/2023, 3:35:44 PM","unixtimestamp":1696962944659}
+{"level":"info","message":"SunBeam file server is running on http://rweb.cl:48299/api/v1","timestamp":"10/10/2023, 3:35:44 PM","unixtimestamp":1696962944659}
+{"level":"info","message":"Server is running on port 3000","timestamp":"10/10/2023, 3:35:59 PM","unixtimestamp":1696962959036}
+{"level":"info","message":"SunBeam file server is running on http://rweb.cl:48299/api/v1","timestamp":"10/10/2023, 3:35:59 PM","unixtimestamp":1696962959036}
+{"level":"info","message":"Server is running on port 3000","timestamp":"10/10/2023, 4:11:52 PM","unixtimestamp":1696965112348}
+{"level":"info","message":"SunBeam file server is running on http://rweb.cl:48299/api/v1","timestamp":"10/10/2023, 4:11:52 PM","unixtimestamp":1696965112348}
+{"level":"info","message":"Server is running on port 3000","timestamp":"10/10/2023, 4:11:55 PM","unixtimestamp":1696965115621}
+{"level":"info","message":"SunBeam file server is running on http://rweb.cl:48299/api/v1","timestamp":"10/10/2023, 4:11:55 PM","unixtimestamp":1696965115621}
+{"level":"info","message":"Server is running on port 3000","timestamp":"10/10/2023, 4:12:11 PM","unixtimestamp":1696965131651}
+{"level":"info","message":"SunBeam file server is running on http://rweb.cl:48299/api/v1","timestamp":"10/10/2023, 4:12:11 PM","unixtimestamp":1696965131651}
+{"level":"info","message":"Server is running on port 3000","timestamp":"10/10/2023, 4:14:53 PM","unixtimestamp":1696965294010}
+{"level":"info","message":"SunBeam file server is running on http://rweb.cl:48299/api/v1","timestamp":"10/10/2023, 4:14:53 PM","unixtimestamp":1696965294010}
+{"level":"info","message":"Server is running on port 3000","timestamp":"10/10/2023, 5:33:54 PM","unixtimestamp":1696970034405}
+{"level":"info","message":"SunBeam file server is running on http://rweb.cl:48299/api/v1","timestamp":"10/10/2023, 5:33:54 PM","unixtimestamp":1696970034405}
+{"level":"info","message":"Server is running on port 3000","timestamp":"10/10/2023, 5:33:58 PM","unixtimestamp":1696970038084}
+{"level":"info","message":"SunBeam file server is running on http://rweb.cl:48299/api/v1","timestamp":"10/10/2023, 5:33:58 PM","unixtimestamp":1696970038084}
+{"level":"info","message":"Server is running on port 3000","timestamp":"10/10/2023, 6:03:55 PM","unixtimestamp":1696971835051}
+{"level":"info","message":"SunBeam file server is running on http://rweb.cl:48299/api/v1","timestamp":"10/10/2023, 6:03:55 PM","unixtimestamp":1696971835051}
+{"level":"info","message":"Server is running on port 3000","timestamp":"10/10/2023, 6:04:20 PM","unixtimestamp":1696971860609}
+{"level":"info","message":"SunBeam file server is running on http://rweb.cl:48299/api/v1","timestamp":"10/10/2023, 6:04:20 PM","unixtimestamp":1696971860609}
+{"level":"info","message":"Server is running on port 3000","timestamp":"10/10/2023, 6:14:18 PM","unixtimestamp":1696972458910}
+{"level":"info","message":"SunBeam file server is running on http://rweb.cl:48299/api/v1","timestamp":"10/10/2023, 6:14:18 PM","unixtimestamp":1696972458910}
+{"level":"info","message":"Server is running on port 3000","timestamp":"10/10/2023, 6:14:24 PM","unixtimestamp":1696972464101}
+{"level":"info","message":"SunBeam file server is running on http://rweb.cl:48299/api/v1","timestamp":"10/10/2023, 6:14:24 PM","unixtimestamp":1696972464101}
+{"level":"info","message":"Server is running on port 3000","timestamp":"10/10/2023, 6:14:28 PM","unixtimestamp":1696972468415}
+{"level":"info","message":"Server is running on port 3000","timestamp":"10/10/2023, 6:14:37 PM","unixtimestamp":1696972477693}
+{"level":"info","message":"SunBeam file server is running on http://rweb.cl:48299/api/v1","timestamp":"10/10/2023, 6:14:37 PM","unixtimestamp":1696972477693}
+{"level":"info","message":"Server is running on port 3000","timestamp":"10/10/2023, 6:14:41 PM","unixtimestamp":1696972481298}
+{"level":"info","message":"SunBeam file server is running on http://rweb.cl:48299/api/v1","timestamp":"10/10/2023, 6:14:41 PM","unixtimestamp":1696972481298}
+{"level":"info","message":"Server is running on port 3000","timestamp":"10/10/2023, 6:14:46 PM","unixtimestamp":1696972486942}
+{"level":"info","message":"SunBeam file server is running on http://rweb.cl:48299/api/v1","timestamp":"10/10/2023, 6:14:46 PM","unixtimestamp":1696972486942}
+{"level":"info","message":"Server is running on port 3000","timestamp":"10/10/2023, 6:19:07 PM","unixtimestamp":1696972747109}
+{"level":"info","message":"SunBeam file server is running on http://rweb.cl:48299/api/v1","timestamp":"10/10/2023, 6:19:07 PM","unixtimestamp":1696972747109}
+{"level":"info","message":"User Marcelo Mendoza added succesfully","timestamp":"10/10/2023, 6:19:07 PM","unixtimestamp":1696972747109}
+{"level":"info","message":"Server is running on port 3000","timestamp":"10/10/2023, 7:00:20 PM","unixtimestamp":1696975220770}
+{"level":"info","message":"SunBeam file server is running on http://rweb.cl:48299/api/v1","timestamp":"10/10/2023, 7:00:20 PM","unixtimestamp":1696975220770}
+{"level":"info","message":"Server is running on port 3000","timestamp":"10/10/2023, 7:01:36 PM","unixtimestamp":1696975296647}
+{"level":"info","message":"SunBeam file server is running on http://rweb.cl:48299/api/v1","timestamp":"10/10/2023, 7:01:36 PM","unixtimestamp":1696975296647}
+{"level":"info","message":"Server is running on port 3000","timestamp":"10/10/2023, 7:01:38 PM","unixtimestamp":1696975298743}
+{"level":"info","message":"Server is running on port 3000","timestamp":"10/10/2023, 7:01:40 PM","unixtimestamp":1696975300697}
+{"level":"info","message":"SunBeam file server is running on http://rweb.cl:48299/api/v1","timestamp":"10/10/2023, 7:01:40 PM","unixtimestamp":1696975300697}
+{"level":"info","message":"Server is running on port 3000","timestamp":"10/10/2023, 7:02:13 PM","unixtimestamp":1696975333826}
+{"level":"info","message":"SunBeam file server is running on http://rweb.cl:48299/api/v1","timestamp":"10/10/2023, 7:02:13 PM","unixtimestamp":1696975333826}
+{"level":"info","message":"Server is running on port 3000","timestamp":"10/10/2023, 7:02:16 PM","unixtimestamp":1696975336273}
+{"level":"info","message":"SunBeam file server is running on http://rweb.cl:48299/api/v1","timestamp":"10/10/2023, 7:02:16 PM","unixtimestamp":1696975336273}
+{"level":"info","message":"Server is running on port 3000","timestamp":"10/10/2023, 7:04:59 PM","unixtimestamp":1696975499580}
+{"level":"info","message":"SunBeam file server is running on http://rweb.cl:48299/api/v1","timestamp":"10/10/2023, 7:04:59 PM","unixtimestamp":1696975499580}
+{"level":"info","message":"Server is running on port 3000","timestamp":"10/10/2023, 7:05:02 PM","unixtimestamp":1696975502705}
+{"level":"info","message":"Server is running on port 3000","timestamp":"10/10/2023, 7:05:05 PM","unixtimestamp":1696975505264}
+{"level":"info","message":"SunBeam file server is running on http://rweb.cl:48299/api/v1","timestamp":"10/10/2023, 7:05:05 PM","unixtimestamp":1696975505264}
+{"level":"info","message":"Server is running on port 3000","timestamp":"10/10/2023, 7:05:35 PM","unixtimestamp":1696975535693}
+{"level":"info","message":"SunBeam file server is running on http://rweb.cl:48299/api/v1","timestamp":"10/10/2023, 7:05:35 PM","unixtimestamp":1696975535693}
+{"level":"info","message":"Server is running on port 3000","timestamp":"10/10/2023, 7:06:02 PM","unixtimestamp":1696975562378}
+{"level":"info","message":"SunBeam file server is running on http://rweb.cl:48299/api/v1","timestamp":"10/10/2023, 7:06:02 PM","unixtimestamp":1696975562378}
+{"level":"info","message":"Server is running on port 3000","timestamp":"10/10/2023, 7:18:40 PM","unixtimestamp":1696976320978}
+{"level":"info","message":"SunBeam file server is running on http://rweb.cl:48299/api/v1","timestamp":"10/10/2023, 7:18:40 PM","unixtimestamp":1696976320978}
+{"level":"info","message":"Server is running on port 3000","timestamp":"10/10/2023, 7:18:42 PM","unixtimestamp":1696976322352}
+{"level":"info","message":"SunBeam file server is running on http://rweb.cl:48299/api/v1","timestamp":"10/10/2023, 7:18:42 PM","unixtimestamp":1696976322352}
+{"level":"info","message":"Server is running on port 3000","timestamp":"10/10/2023, 7:19:04 PM","unixtimestamp":1696976344145}
+{"level":"info","message":"SunBeam file server is running on http://rweb.cl:48299/api/v1","timestamp":"10/10/2023, 7:19:04 PM","unixtimestamp":1696976344145}
+{"level":"info","message":"Server is running on port 3000","timestamp":"10/10/2023, 7:24:01 PM","unixtimestamp":1696976641971}
+{"level":"info","message":"SunBeam file server is running on http://rweb.cl:48299/api/v1","timestamp":"10/10/2023, 7:24:01 PM","unixtimestamp":1696976641971}

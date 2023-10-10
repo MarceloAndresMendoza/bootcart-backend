@@ -1,10 +1,26 @@
+// ====================================================
+// Auth Middleware
+// Author: Marcelo Mendoza
+// Created: 2023-10-10
+// Description: This middleware handles the authentication
+//              of the API calls.
+// ====================================================
+
 import jwt from 'jsonwebtoken';
+import dotenv from 'dotenv';
+dotenv.config();
+
+const AUTH_TIMEOUT = process.env.AUTH_TIMEOUT;
+const SECRET_KEY = process.env.SECRET_KEY;
 
 export const authRequire = (req, res, next) => {
+    // ================================
+    // User authentication
+    // ================================
     try {
-        const { xaccesstoken } = req.headers;
-        const decoded = jwt.verify(xaccesstoken, process.env.SECRET_KEY);
-        const actualTime = (new Date()/1000)
+        const apiKey = req.headers['x-access-token'];
+        const decoded = jwt.verify(apiKey, SECRET_KEY);
+        const actualTime = (new Date() / AUTH_TIMEOUT)
         if (actualTime > decoded.exp) {
             return res.status(401).json({message: 'Expired Token. Login again.'})
         }
@@ -16,10 +32,13 @@ export const authRequire = (req, res, next) => {
 }
 
 export const adminAuthRequire = (req, res, next) => {
+    // ================================
+    // Admin authentication
+    // ================================
     try {
-        const { xaccesstoken } = req.headers;
-        const decoded = jwt.verify(xaccesstoken, process.env.SECRET_KEY);
-        const actualTime = Math.floor(new Date().getTime() / 1000); // Use Math.floor to ensure an integer value
+        const apiKey = req.headers['x-access-token'];
+        const decoded = jwt.verify(apiKey, SECRET_KEY);
+        const actualTime = Math.floor(new Date().getTime() / AUTH_TIMEOUT);
 
         if (actualTime > decoded.exp) {
             return res.status(401).json({ message: 'Expired Token. Login again.' });

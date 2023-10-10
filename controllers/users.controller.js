@@ -95,3 +95,16 @@ export const login = async (req, res) => {
         res.status(500).json({ message: 'Error in the server', error: error });
     }
 };
+
+export const verifyUser = async (req, res) => {
+    try {
+        const user = await User.findById(req.data.id).select('-password -role -_id -__v');
+        if (!user) {
+            return res.status(404).json({ message: 'User not found' });
+        }
+        res.status(200).json(user);
+    } catch (error) {
+        console.log(error)
+        return res.status(500).json({ message: 'Couldnt verify the user', error: error });
+    }
+}

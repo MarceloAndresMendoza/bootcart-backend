@@ -6,6 +6,7 @@ import utilsRouter from './routes/utils.routes.js';
 import dotenv from 'dotenv';
 import { db } from './config/config.js';
 import { logger } from './utils/logger.js';
+import { getSunbeamStatus } from './controllers/sunbeam.controller.js';
 
 dotenv.config();
 const corsOptions={
@@ -28,6 +29,9 @@ app.use('/api/pre0', utilsRouter)
 
 db();
 
+
+
 app.listen(PORT, () => {
     logger.info(`Server is running on port ${PORT}`);
+    getSunbeamStatus();
 })
