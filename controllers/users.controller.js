@@ -10,7 +10,7 @@ export const getAllUsers = async (req, res) => {
         const allUsers = await User.find();
         res.status(200).json(allUsers);
     } catch (error) {
-        res.status(404).json({error: 'No se encontraron datos de usuarios'});
+        res.status(404).json({ error: 'No se encontraron datos de usuarios' });
     }
 }
 
@@ -24,13 +24,13 @@ export const getUserProfile = async (req, res) => {
         }
         res.status(200).json(userData);
     } catch (error) {
-        res.status(500).json({error: 'Internal server error', method: 'getUserProfile', error: error});
+        res.status(500).json({ error: 'Internal server error', method: 'getUserProfile', error: error });
     }
 }
 
 export const signUp = async (req, res) => {
     try {
-        const {firstName, lastName, email, password } = req.body;
+        const { firstName, lastName, email, password } = req.body;
         if (!firstName || !lastName || !email || !password) {
             return res.status(400).json({ message: "Please, fill up all required data" });
         }
@@ -56,7 +56,7 @@ export const signUp = async (req, res) => {
             message: `User ${savedUser.firstName} ${savedUser.lastName} has been successfully created.`,
         });
     } catch (error) {
-        
+
         logger.error(`Error trying to add ${savedUser.firstName} ${savedUser.lastName}`)
         res.status(500).json({ message: 'Unable to add the user', error: error });
     }

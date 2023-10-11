@@ -6,7 +6,8 @@ import utilsRouter from './routes/utils.routes.js';
 import dotenv from 'dotenv';
 import { db } from './config/config.js';
 import { logger } from './utils/logger.js';
-import { getSunbeamStatus } from './controllers/sunbeam.controller.js';
+import { getSunbeamStatus } from './controllers/dbf.sunbeam.controller.js';
+import { getNodeMailerStatus } from './controllers/dbf.nodemailer.controller.js';
 
 dotenv.config();
 const corsOptions={
@@ -30,9 +31,8 @@ app.use(API_ENDPOINT, productRouter);
 
 db();
 
-
-
 app.listen(PORT, () => {
     logger.info(`Server is running on port ${PORT}`);
     getSunbeamStatus();
+    getNodeMailerStatus();
 })

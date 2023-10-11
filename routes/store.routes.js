@@ -8,10 +8,11 @@
 
 import express from 'express';
 const router = express.Router();
-import { getAllProducts, addProduct } from '../controllers/store.controller.js';
-import { authRequire } from '../middleware/auth.middleware.js';
+import { getAllProducts, addProduct, getProductById } from '../controllers/store.controller.js';
+import { adminAuthRequire, authRequire } from '../middleware/auth.middleware.js';
 
 router.get('/products', getAllProducts ); // NOT LOGGED
-router.post('/products', authRequire, addProduct ); // ADMIN AUTH
+router.get('/products/:id', getProductById ); // NOT LOGGED
+router.post('/products', adminAuthRequire, addProduct ); // ADMIN AUTH
 
 export default router

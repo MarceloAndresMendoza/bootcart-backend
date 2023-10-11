@@ -9,6 +9,16 @@ export const getAllProducts = async (req, res) => {
     }
 }
 
+export const getProductById = async (req, res) => {
+    try {
+        const { id } = req.params;
+        const product = await Product.findById(id);
+        res.status(200).json(product);
+    } catch (error) {
+        res.status(404).json({error: 'No se encontraron datos del producto'});
+    }
+}
+
 export const addProduct = async (req , res) => {
     try {
         const newProduct = req.body;
