@@ -23,9 +23,10 @@ app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 app.use(cors(corsOptions));
 
-app.use('/api/pre0', productRouter);
-app.use('/api/pre0', usersRouter);
-app.use('/api/pre0', utilsRouter)
+const API_ENDPOINT = process.env.API_ENDPOINT;
+app.use(API_ENDPOINT, usersRouter);
+app.use(API_ENDPOINT, utilsRouter)
+app.use(API_ENDPOINT, productRouter);
 
 db();
 
