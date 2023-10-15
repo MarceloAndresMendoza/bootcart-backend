@@ -68,8 +68,8 @@ else
     read -p "Enter the database password: " DB_PASSWORD
     read -p "Enter the database host: " DB_HOST
     read -p "Enter the database port: " DB_PORT
-    DBURI = "mongodb://$DB_USER:$DB_PASSWORD@$DB_HOST:$DB_PORT/$DB_NAME?authMechanism=DEFAULT"
-    DBSTATUSURL = "http://$DB_HOST:$DB_PORT"
+    DBURI="mongodb://$DB_USER:$DB_PASSWORD@$DB_HOST:$DB_PORT/$DB_NAME?authMechanism=DEFAULT"
+    DBSTATUSURL="http://$DB_HOST:$DB_PORT"
     read -p "Enter the secret key: " SECRET_KEY
     read -p "Enter Sunbeam's URL: (http://rweb.cl:48299/api/v1) " SUNBEAM_URL
     read -p "Enter Sunbeam's API key: " SUNBEAM_API_KEY
